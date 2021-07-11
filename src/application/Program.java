@@ -49,6 +49,8 @@ public class Program {
 		list = sellerDao.findAll();
 		list.stream().forEach(System.out::println);
 		
+		sc.close();
+		
 	}
 
 }
